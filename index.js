@@ -16,3 +16,12 @@ async function start() {
   // Now try and complete the program.
   process.exit();
 }
+
+
+// start by getting the pc to pick an number at random
+  // using Math.random * 100 and flooring it to a even integer 
+//if the number is equal to the questionText , then the pc should "win" and exit the game with a message
+//if the number is != to the questionText then the pc should continue to guess numbers
+  //the player inputs higher or lower and the pc modifies its range accordingly
+    // at a base to modify the range you use the guessed number + or - 1 depending on h or l
+    // this would take too long so I should make it guess the middle of the range provided ((min + max) /2)
